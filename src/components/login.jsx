@@ -15,17 +15,6 @@ class Login extends Component {
         }
     };
 
-    // schema = {
-    //     email: Joi.string().required(),
-    //     password: Joi.string().required()
-    // };
-
-    // validate = () => {
-    //     if (!this.state.email.includes('@')) {
-    //         this.setState({ errors: 'Invalid email!' });
-    //     };
-    // }
-
     handleChangeEmail = (e) => {
         // const errors = this.validate();
         this.setState({ email : e.target.value });

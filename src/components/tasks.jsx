@@ -27,6 +27,12 @@ class Tasks extends Component {
                         );
                         })
                     }
+
+                    {
+                        this.props.tags.map(tag => {
+                          return <span class="badge badge-success m-2">{tag}</span> 
+                        })
+                    }
                     
                 </table>
                 </div>
